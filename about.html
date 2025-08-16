@@ -6,10 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="BILD (British Indians Living in Dubai UAE) is a not-for-profit community for people of British Indian heritage living in the UAE." />
   <style>
-    :root {
-      --maxw: 960px;
-    }
-    * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
@@ -18,135 +14,64 @@
       background: #fafafa;
     }
     header {
-      background: #ffffff;
-      border-bottom: 1px solid #eee;
+      text-align: center;
+      padding: 30px 20px 10px;
     }
-    .wrap {
-      max-width: var(--maxw);
+    header img {
+      max-width: 200px;
+      height: auto;
+    }
+    main {
+      max-width: 900px;
       margin: 0 auto;
-      padding: 20px;
-    }
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      padding: 12px 0;
-    }
-    .brand img {
-      height: 56px;
-      width: auto;
-    }
-    nav a {
-      margin-right: 16px;
-      text-decoration: none;
-      color: #333;
-      font-weight: 600;
-    }
-    nav a:hover { text-decoration: underline; }
-    .hero {
       background: #ffffff;
-      margin-top: 12px;
-      border: 1px solid #eee;
+      padding: 30px 24px;
       border-radius: 10px;
-      padding: 28px;
+      border: 1px solid #eee;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
       text-align: center;
     }
-    .hero h1 { margin: 0 0 12px; font-size: 2rem; }
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-      margin-top: 20px;
+    p {
+      margin-bottom: 18px;
     }
-    @media (min-width: 840px) {
-      .grid { grid-template-columns: 1fr 1fr; }
-    }
-    section.card {
-      background: #ffffff;
-      border: 1px solid #eee;
-      border-radius: 10px;
-      padding: 22px;
-    }
-    h2 { margin-top: 0; font-size: 1.35rem; }
     footer {
-      margin-top: 32px;
-      padding: 24px 0 40px;
-      color: #666;
-      font-size: 0.95rem;
+      margin: 40px 0 20px;
       text-align: center;
+      color: #666;
+      font-size: 0.9rem;
     }
     .muted { color: #666; }
-    .btn {
-      display: inline-block;
-      padding: 10px 14px;
-      border-radius: 8px;
-      border: 1px solid #ddd;
-      text-decoration: none;
-      color: #111;
-      font-weight: 600;
-    }
-    .btn:hover { background: #f3f3f3; }
   </style>
 </head>
 <body>
   <header>
-    <div class="wrap">
-      <div class="brand">
-        <img src="assets/Bild_Black_Logo.png" alt="BILD Logo" />
-        <strong>BILD – British Indians Living in Dubai</strong>
-      </div>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html" aria-current="page">About</a>
-        <a class="muted" href="https://community-rules.bild.ae/">Community Rules</a>
-      </nav>
-    </div>
+    <img src="assets/Bild_Black_Logo.png" alt="BILD Logo" />
   </header>
 
-  <main class="wrap">
-    <div class="hero">
-      <h1>About BILD</h1>
-      <p class="muted">A not-for-profit community for people of British Indian heritage living in the UAE.</p>
-    </div>
+  <main>
+    <h1>✅ About BILD</h1>
 
-    <div class="grid">
-      <section class="card">
-        <h2>Who we are</h2>
-        <p><strong>BILD (British Indians Living in Dubai UAE)</strong> is a not-for-profit community created exclusively for people of British Indian heritage—or those married to someone who is—now living in the UAE. We are centered on the shared cultural identity and lived experience of being British Indian, and we welcome all religions and faiths without discrimination.</p>
-        <p>We recognise the diversity across the wider South Asian community and appreciate the many vibrant groups in the UAE. BILD exists solely to provide a secure space for the unique British Indian voice and experience to thrive abroad.</p>
-      </section>
+    <p><strong>BILD (British Indians Living in Dubai UAE)</strong> is a not-for-profit community created exclusively for individuals of British Indian heritage—or those married to someone who is—living in the UAE. We welcome those of Indian origin who were born or raised in the UK and identify with both British and Indian culture.</p>
 
-      <section class="card">
-        <h2>What we do</h2>
-        <p>We connect members through cultural celebrations (e.g., Diwali), social meet-ups, family-friendly activities, and opportunities to support and grow British Indian businesses, professionals, and entrepreneurs across the UAE.</p>
-        <p>Members are encouraged to invite other British Indians—each new member strengthens the network and the support we can offer one another.</p>
-      </section>
+    <p>BILD connects members through cultural celebrations such as Diwali, social meet-ups, family-friendly activities, and opportunities to support and grow British Indian businesses, professionals, and entrepreneurs in the UAE. While we embrace all faiths, BILD remains centred on the unique experiences of British Indians living abroad.</p>
 
-      <section class="card">
-        <h2>Our values</h2>
-        <ul>
-          <li><strong>Safe &amp; kind:</strong> A welcoming environment with zero tolerance for harassment or discrimination.</li>
-          <li><strong>Community first:</strong> We help one another connect, grow, and succeed.</li>
-          <li><strong>Respect:</strong> We celebrate shared heritage while embracing individual differences.</li>
-        </ul>
-        <p class="muted">Please read our <a href="https://community-rules.bild.ae/">Community Rules</a> before joining activities.</p>
-      </section>
+    <p>We recognise the richness of the broader South Asian community and appreciate the many other groups in the UAE that reflect different backgrounds. BILD provides a secure space for the British Indian voice and experience to thrive, and we encourage members to invite friends, enhancing the value and shared experiences within our community.</p>
 
-      <section class="card">
-        <h2>Get involved</h2>
-        <p>Want to join events, collaborate, or support the community? We’d love to hear from you.</p>
-        <p>
-          <a class="btn" href="mailto:info@bild.ae">Email us</a>
-          &nbsp; &nbsp;
-          <a class="btn" href="index.html#events">Upcoming Events</a>
-        </p>
-      </section>
-    </div>
+    <p>To ensure smooth integration, all members are asked to introduce themselves to the group. Anonymous joiners who do not provide their identity will be removed.</p>
 
-    <footer>
-      © <span id="year"></span> BILD – British Indians Living in Dubai UAE
-    </footer>
+    <p>As a not-for-profit, all funds raised go towards organising activities, covering licensing and operating expenses, and creating more opportunities for our members to connect. Running BILD is a serious commitment that requires considerable time, energy, and financial contributions from the team. We rely on the support of members to sustain and grow the community. By attending events, spreading the word, and getting involved, you help build a space that benefits everyone.</p>
+
+    <p>British Indian business owners or professionals interested in collaborating or sponsoring are encouraged to get in touch. The more you contribute, the more we can create for you, your families, and the wider British Indian community in the UAE.</p>
+
+    <p><strong>Follow us on Instagram <a href="https://instagram.com/BILD_AE" target="_blank">@BILD_AE</a></strong> to stay updated on events and opportunities. Together, we can strengthen our community!</p>
   </main>
+
+  <footer>
+    © <span id="year"></span> BILD – British Indians Living in Dubai UAE
+  </footer>
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
