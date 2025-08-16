@@ -71,4 +71,25 @@
 <body>
   <main class="wrap">
     <section class="card">
-      <!-- Logo -->
+      <!-- Logo with dark/light support -->
+      <picture>
+        <!-- If you add a light logo file, uncomment the line below and adjust the filename -->
+        <!-- <source srcset="/assets/Bild_White_Logo.png" media="(prefers-color-scheme: light)"> -->
+        <img src="/assets/Bild_Black_Logo.png?v=1" alt="BILD logo" class="logo">
+      </picture>
+
+      <h1>Welcome to BILD</h1>
+      <p>Your one-stop landing page. Visit our info hub for details, updates, and resources.</p>
+
+      <div class="links">
+        <a class="cta" href="https://info.bild.ae">Go to Info Hub</a>
+      </div>
+
+      <p class="subtle">© <span id="y"></span> BILD</p>
+    </section>
+  </main>
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
