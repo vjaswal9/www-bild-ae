@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>BILD — Official Site</title>
+  <meta name="description" content="Welcome to BILD. Learn more about us and access detailed info.">
+  <meta property="og:title" content="BILD — Official Site">
+  <meta property="og:description" content="Welcome to BILD. Learn more about us and access detailed info.">
+  <meta property="og:url" content="https://www.bild.ae/">
+  <meta property="og:type" content="website">
+  <style>
+    body {font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin:0; background:#0b0f14; color:#e6edf3;}
+    .wrap {min-height:100dvh; display:grid; place-items:center; padding:48px;}
+    .card {max-width:720px; background:#111827; border:1px solid #1f2937; border-radius:16px; padding:32px; box-shadow:0 10px 30px rgba(0,0,0,.25);}
+    h1 {margin:0 0 12px; font-size:32px; letter-spacing:.3px;}
+    p {margin:0 0 20px; line-height:1.6; color:#c9d1d9;}
+    .cta {display:inline-block; padding:12px 18px; border-radius:10px; background:#2563eb; color:#fff; text-decoration:none; font-weight:600;}
+    .links {margin-top:16px; display:flex; gap:12px; flex-wrap:wrap;}
+    .subtle {color:#94a3b8; font-size:14px; margin-top:14px;}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Welcome to BILD</h1>
+      <p>Your one-stop landing page. Visit our info hub for details, updates, and resources.</p>
+      <div class="links">
+        <a class="cta" href="https://info.bild.ae">Go to Info Hub</a>
+        <!-- Add more links when ready -->
+        <!-- <a class="cta" href="/contact">Contact</a> -->
+      </div>
+      <p class="subtle">© <span id="y"></span> BILD</p>
+    </section>
+  </main>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
